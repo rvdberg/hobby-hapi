@@ -2,9 +2,10 @@
   "name": "hobby-auth0-hapi",
   "version": "1.0.0",
   "description": "Trying out hapi",
-  "main": "index.js",
+  "main": "webtask.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "extension:build": "a0-ext build:server ./webtask.js ./dist"
   },
   "author": "Me",
   "license": "ISC",
