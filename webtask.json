@@ -1,0 +1,23 @@
+{
+  "title": "Hobby Auth0 Hapi",
+  "name": "hobby-auth0-hapi",
+  "version": "1.0.0",
+  "author": "Me",
+  "useHashName": false,
+  "description": "This extension doesn't do much.",
+  "type": "application",
+  "category": "end_user",
+  "logoUrl": "https://cdn.auth0.com/extensions/auth0-delegated-admin/assets/logo.svg",
+  "initialUrlPath": "/",
+  "docsUrl": "https://auth0.com/docs/extensions",
+  "repository": "https://github.com/",
+  "keywords": [
+    "auth0",
+    "extension"
+  ],
+  "auth0": {
+    "createClient": false,
+    "onUninstallPath": "/.extensions/on-uninstall"
+  }
+
+}
